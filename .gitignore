@@ -1,0 +1,2 @@
+# ignore all certificate files for security reasons
+*.pom
