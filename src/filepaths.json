@@ -1,0 +1,8 @@
+{
+    "privateKey":    "./country_key (1).key",
+    "serverChain":  "/out.pem",
+    "publicKey":         "./noob-root (1).pem",
+    "countryCA":        "/opt/noob/certs/country-ca/country-ca.pem",
+    "landSchema":               "unused",
+    "publicLog":                "unused"
+}
