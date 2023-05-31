@@ -48,13 +48,15 @@ const options = {
 const bankListBalance = {
     "noob": "http://145.24.222.82:8443/api/balance",
     "BK":   "http://145.24.222.188:8443/balance",
-    "MB":   "http://145.24.222.171:8888/balance"
+    "MB":   "http://145.24.222.25:8443/balance",
+    "BG":   "http://145.24.222.171:8888/balance"
 };
 
 const bankListWithdraw = {
     "noob": "http://145.24.222.82:8443/api/withdraw",
     "BK":   "http://145.24.222.188:8443/withdraw",
-    "MB":   "http://145.24.222.171:8888/withdraw"
+    "MB":   "http://145.24.222.25:8443/withdraw",
+    "BG":   "http://145.24.222.171:8888/withdraw"
 };
 
 
