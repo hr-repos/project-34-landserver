@@ -83,7 +83,7 @@ app.post('/balance' ,(req, res) => {
     else {
         axios.post(bankListBalance[req.body.head.toBank], req.body)
         .then((goodresponse) => {
-            console.log("good response");
+            console.log("approved balance request from: " + req.ip);
             return res.status(200).send(goodresponse.data);
         })
         .catch((error) => { 
@@ -115,7 +115,7 @@ app.post('/withdraw' ,(req, res) => {
     else {
         axios.post(bankListWithdraw[req.body.head.toBank], req.body)
         .then((goodresponse) => {
-            console.log("good response");
+            console.log("approved withdraw request from: " + req.ip);
             return res.status(200).send(goodresponse.data);
         })
         .catch((error) => { 
